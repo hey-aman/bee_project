@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+
+  /* background-color: orange; */
+  
+  
+}
+
+h1 {
+  font-size: 3rem;
+  text-decoration: underline;
+  /* background-color: chartreuse; */
+  border-radius: 5px;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: beige;
+  border-radius: 20px;
+  align-items: center;
+
+  
+  
+
+}
+
+.todo {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  padding: 0px;
+  border: 0px solid #ddd;
+  color: black;
+  font-family:cursive;
+  font-weight: bold;
+  
+}
+
+.completed {
+  text-decoration: line-through;
+}
+.lo {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(29, 122, 203);
+}
+input {
+  width: 300px;
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+
+
+
+.complete-btn {
+  background-color: rgb(225, 225, 230);
+  color: rgb(5, 203, 51);
+  border: none;
+  height: 25px;
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.edit-btn {
+  background-color: rgb(225, 225, 230);
+  color: rgb(46, 3, 218);
+  border: none;
+  height: 25px;
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.delete-btn {
+  background-color: rgb(225, 225, 230);
+  color: rgb(225, 8, 8);
+  border: none;
+  height: 25px;
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  
+}
+.add{
+  background-color: rgb(225, 225, 230);
+  width: 50px;
+  height: 32px;
+  border-style:solid;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.up-btn{
+  cursor: pointer;
+}
+.down-btn{
+  cursor: pointer;
+}
